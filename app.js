@@ -16,8 +16,9 @@ function start() {
 };
 
 function Reset() {
-    clearInterval(currentTimer)
-
+    clearInterval(currentTimer);
+    seconds = 0;
+    time.textContent = seconds;
 };
 
 function pause() {
